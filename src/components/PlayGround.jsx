@@ -24,8 +24,6 @@ export default function PlayGround({toPlay}) {
     } else if (compRun > yourRun) {
       alert("Comp is Winner");
       setWinner('Comp')
-    } else {
-      alert("Match Draw");
     }
   }
 }, [youOut, compOut, yourRun, compRun]);
