@@ -1,0 +1,121 @@
+.main{
+    border: 2px solid rgb(232, 153, 206);
+    height: 70vh;
+    width: 80vw;
+    margin: 0 10vw 0 10vw;
+    border-radius: 30px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(173, 227, 227,0.1);
+    position: relative;
+      animation: anime 1s;
+    animation-iteration-count: 1;
+}
+#heading{
+margin-top: 10px;
+font-size: 40px;
+  animation: anime 1s;
+    animation-iteration-count: 1;
+}
+#heading2{
+    margin-top: 10px;
+    color: rgb(66, 40, 44);
+      animation: anime 1s;
+    animation-iteration-count: 1;
+}
+.button{
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+      animation: anime 1s;
+    animation-iteration-count: 1;
+}
+.even{
+    background-color:rgb(137, 187, 227);
+    /* position:static;
+    left: 25vw; */
+      animation: anime 1s;
+    animation-iteration-count: 1;
+}
+.odd{
+    background-color:rgb(175, 83, 175);
+    /* position:static;
+    right: 25vw; */
+      animation: anime 1s;
+    animation-iteration-count: 1;
+}
+#p{
+position: absolute;
+margin-top: 30px;
+left: 23vw;
+font-size: large;
+  animation: anime 1s;
+    animation-iteration-count: 1;
+}
+#winner{
+    margin-top: 90px;
+    height: 40px;
+    background-color: rgb(188, 225, 213);
+    color: black;
+    width: 150px;
+    align-content: center;
+    margin-left: 43%;
+    margin-bottom: 25px;
+    border-radius: 10px;
+      animation: anime 1s;
+    animation-iteration-count: 1;
+}
+#ro{
+    border-radius: 10px;
+    height: 40px;
+    background-color:rgb(86, 171, 86);
+    padding: 10px;
+    font-size: larger;
+    text-decoration: none;
+      animation: anime 1s;
+    animation-iteration-count: 1;
+}
+#ao{
+    height: 40px;
+    background-color:rgb(86, 171, 86);
+    width: 150px;
+    border-radius: 10px;
+    align-content: center;
+    margin-left: 43%;
+      animation: anime 1s;
+    animation-iteration-count: 1;
+}
+
+@media (max-width:600px){
+    #p{
+position: absolute;
+margin-top: 30px;
+left: 0;
+    }
+    .t{
+        margin: 5px;
+        height: 30px;
+        width: 50px;
+    }
+    #winner{
+        height: 8vh;
+        margin-top: 20vh;
+        margin-left: 23vw;
+    }
+    #ao{
+        margin-left: 23vw;
+        height: 8vh;
+        margin-bottom: 20px;
+    }
+    #ro{
+        margin-left: 6vw;
+        padding: 20px;
+        height: 8vh;
+
+    }
+    #heading2{
+        color: aquamarine;
+    }
+}
