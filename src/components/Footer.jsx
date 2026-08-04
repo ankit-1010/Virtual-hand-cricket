@@ -8,7 +8,7 @@ export default function Footer() {
         marginLeft:"10vw",
         borderRadius:"20px",
         marginTop:"2vh",
-        bottom:"15px",
+        bottom:"0px",
         animationName:'anime',
       animationIterationCount: 1,
     }
